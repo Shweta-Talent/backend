@@ -5,6 +5,6 @@ import { Controller, Get } from '@nestjs/common';
 export class ImageController {
   @Get()
   getImageUrl(): string {
-    return 'https://images.onlymyhealth.com/imported/images/2023/June/22_Jun_2023/Main.trek.jpg';
+    return 'https://cdn.dev.spotlightone.com/thumbnails/5ce6b1425d6775315027e8b7012d5d5e494c731ac6aea01a11b1ee9184577833';
   }
 }
